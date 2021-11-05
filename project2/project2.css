@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background-color: #f1f1f1;
+    color: #757575;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 240px;
+}
+
+.right {
+    flex: 65%;
+    background-color: white;
+}
+
+.freeSpace{
+    flex: 0.1%;
+    height: 30px;
+    background-color: #f1f1f1;
+}
+.left {
+    flex: 30%;
+    box-shadow: 5px 10px 18px #888888;
+
+    background-color: white;
+}
+.firstSec{
+    padding:5px 15px ;
+
+}
+
+i{
+    color: #009688;
+    padding-right: 15px;
+}
+hr{
+    color: #757575;
+    width:100% ;
+}
+
+.skillsTitle{
+    font-size: 18px;
+}
+
+.container {
+    width: 280px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+
+}
+
+.skills {
+    text-align: right;
+    padding-bottom: 20px;
+    color: white;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.nodejs {width: 90%; background-color: #009688; text-align: center;}
+.flutter {width: 80%; background-color: #009688;text-align: center;}
+.react {width: 65%; background-color: #009688;text-align: center;}
+
+.work{
+    padding: 20px;
+
+}
+
+.workContainer p{
+    font-size: 14px;
+}
+
+.footer{
+    background-color: #009688;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+.footer i{
+    color: white;
+    padding: 5px;
+}
+.footer a{
+    text-decoration: none;
+}
+
+.footer i:hover{
+    color: #009688;
+    background-color: white;
+    border-radius: 5px;
+}
